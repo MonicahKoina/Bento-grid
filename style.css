@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+.grid-col-span-2{
+    grid-column: span 2;
+}
+.card-container{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+}
+.create-post{
+    background-color: bisque;
+}
+.write-content{
+    background-color: rgb(245, 202, 123);
+}
+.social-media{
+    background-color: rgb(93, 93, 184);
+    
+}
+.accounts-maintain{
+    background-color:rgb(245, 202, 123) ;
+}
+.growth{
+    background-color:rgb(93, 93, 184) ;
+}
+.schedule{
+    background-color: rgb(211, 199, 226);
+}
+img{
+    /* height: 100px; */
+    width: 150px;
+}
