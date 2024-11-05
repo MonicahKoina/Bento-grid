@@ -4,19 +4,39 @@
     margin: 0;
     box-sizing: border-box;
 }
-.grid-col-span-2{
-    grid-column: span 2;
-}
+
 .card-container{
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(4, 1fr);
 }
+
 .create-post{
     background-color: bisque;
+    padding: 30px;
+}
+.col-1{
+    display: grid;
+    gap: 2em;
+}
+.quick{
+    color:rgb(93, 93, 184) ;
+}
+.post-btn{
+    padding: 14px;
+    margin-top: 20px;
+    background-color: rgb(245, 202, 123);
+    border-radius: 10px;
+    border: none;
+    color:rgb(93, 93, 184) ;
+    font-weight: 800;
 }
 .write-content{
     background-color: rgb(245, 202, 123);
+    padding: 10px;
+}
+.content-info{
+    width: 118px;
 }
 .social-media{
     background-color: rgb(93, 93, 184);
